@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+Header {
+  background-color: #f5ba13;
+  padding: 2%;
+}
+
+Header h1 {
+  font-size: 30px;
+  color: white;
+}
+
+
+.create-form {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin: 2% auto;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  border-radius: 7px;
+  position: relative;
+}
+
+.create-form input , textarea {
+  border: none;
+  padding: 3% 1%;
+  font-size: 20px;
+  outline: none;
+}
+
+.create-form button { 
+  height: 36px;
+  width: 36px;
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+  border-radius: 50%;
+  background-color: #f5ba13;
+  border: none;
+}
+
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+  
+}
+
+.note button {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  float: right;
+  bottom: -30px;
+  background-color: #f5ba13;
+  border-radius: 50%;
+  margin: 0.5%;
+}
+
+.note h1 ,p {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note p {
+  padding-left: 1%;
+}
+
+.edit-note {
+  border-top: 1px solid lightgray;
+}
+
+
+.edit-note input ,p {
+  border: none;
+  padding: 3% 1%;
+  outline: none;
+}
+
